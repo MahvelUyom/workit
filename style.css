@@ -1,0 +1,145 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+button:hover{
+  background-color: rgb(141, 228, 141);
+}
+
+.header{
+  padding: 1rem;
+  background-color: rgb(7, 7, 76);
+  color: white;
+}
+.header h2{
+  font-size: 3rem;
+}
+.header span{
+  font-weight: 300;
+}
+.header .app{
+  font-size: 1.5rem;
+}
+.app{
+  border-bottom: 4px solid rgb(107, 243, 107);
+
+}
+.flex{
+  display:flex;
+  justify-content: space-between;
+}
+
+.home{
+  padding: 1rem;
+  background-color: rgb(7, 7, 76);
+  color: white;
+  height: 80dvh;
+  text-align: center;
+  padding-top: 10rem;
+  border-radius: 0 0 23rem 23rem;
+}
+.home h1{
+  font-size: 4rem;
+}
+.home span{
+  border-bottom: 3px solid rgb(107, 243, 107);
+
+}
+.btn{
+  background-color: rgb(107, 243, 107);
+  padding: 1rem;
+  border: 0;
+  outline: 0;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}
+
+.insights{
+  text-align: center;
+  height: 50dv;
+  margin-top: 4rem;
+  padding-bottom: 3rem;
+}
+.num{
+  border: 1px solid;
+  border-radius: 50%;
+  width: 3rem;
+  
+  height: 3rem;
+  text-align: center;
+
+}
+
+.insights h3{
+  font-size: 2rem;
+  margin: 2rem;
+}
+.insights p{
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+
+.container{
+  background: rgb(235, 235, 235);
+  border-radius: 0 0 13rem 13rem;
+  padding: 1rem;
+
+}
+
+.footer{
+  padding: 2rem;
+  text-align: center;
+}
+.footer img{
+  width: 15rem;
+  aspect-ratio: 1;
+  border:0;
+  background: rgb(107, 243, 107);
+  border-radius: 13rem 13rem 0 0;
+}
+.text{
+  background:rgb(7, 7, 76) ;
+  color: white;
+  margin: 0;
+  padding: 2rem;
+
+}
+.text h3{
+  font-size: 3rem;
+  margin: 2rem;
+}
+.text p{
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+
+.last{
+  text-align: center;
+  height: 45dvh;
+  padding-top: 5rem;
+  margin: 2rem;
+}
+.last h2{
+  font-size: 3rem;
+  margin: 2rem;
+  font-weight: 800;
+}
+.last span{
+  font-weight: 300;
+}
+.icons img{
+  width: 4rem;
+  margin-left: 3rem;
+}
+.icons .flex{
+  justify-content:center;
+}
+
+
+@media (max-width:316px){
+  .app{
+    display: none;
+   }
+}
